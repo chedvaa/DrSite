@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -42,3 +43,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+typings.d.ts
+test.ts
+tsconfig.spec.json
+polyfills.ts
+favicon.ico
+>>>>>>> 7b3d889664ae8fe09ae89ac8b7b4bf1ca7c8df6e

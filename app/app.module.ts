@@ -1,7 +1,8 @@
 import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms"
-import {HttpModule} from "@angular/http"
+import {ImageUploadModule} from "angular2-image-upload";
+
 import {rootComponent} from './components/index/index.component'
 import {SignalFileComponent} from './components/file/file.component'
 import {MultyFilesComponent} from './components/files/files.component'
@@ -18,7 +19,7 @@ import {FilterService} from "./services/filtersService";
     MultyFiltersComponent
   ],
   imports: [
-    BrowserModule,FormsModule,HttpModule
+    BrowserModule,FormsModule, ImageUploadModule.forRoot()
   ],
   providers: [FilterService],
   bootstrap: [rootComponent]

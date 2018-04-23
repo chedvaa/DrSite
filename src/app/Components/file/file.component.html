@@ -1,0 +1,14 @@
+<div class="card row" *ngIf="file.Data==='תורה'">
+  <!-- Heading -->
+  <h4 style="margin-left:250px" class="card-title">{{file.Title}}</h4>
+  <div class="card-body">
+    <div  class="imgDiv col-md-8">
+      <h6 class="card-subtitle text-muted"> {{file.Data}}</h6>
+      <p  class="card-text"> {{file.Data}}</p>
+    </div>
+  </div>
+  <div class="imgDiv col-md-2">
+    <!-- Image -->
+    <img [src]="file.imgSrc"  style="width:100px; height:100px;margin:10px">
+  </div>
+</div>
