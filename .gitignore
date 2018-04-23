@@ -1,0 +1,5 @@
+typings.d.ts
+test.ts
+tsconfig.spec.json
+polyfills.ts
+favicon.ico
