@@ -1,4 +1,6 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
+import { Options } from "selenium-webdriver/chrome";
+
 
 @Component({
   selector: 'root-component',

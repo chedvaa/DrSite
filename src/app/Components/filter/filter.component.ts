@@ -1,4 +1,4 @@
-import {Component, Input} from "@angular/core";
+import {Component, Input, Output, EventEmitter} from "@angular/core";
 import {Filter} from "../../Model/filterCls";
 
 @Component({
@@ -7,7 +7,6 @@ import {Filter} from "../../Model/filterCls";
 })
 export class SignalFilterComponent   {
   @Input('Filter') filter: Filter;
-  @Output() try =new EventEmitter();
   numOfDisplay:number;
   displayFilter:boolean;
  // name:string;
@@ -26,8 +25,5 @@ export class SignalFilterComponent   {
   }
   showAll(){
     this.numOfDisplay=0;
-  }
-  filterr(name:string){
-this.try.emit(name);
   }
 }
