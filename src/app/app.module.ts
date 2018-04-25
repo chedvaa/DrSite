@@ -8,6 +8,7 @@ import {MultyFilesComponent} from './components/files/files.component'
 import {SignalFilterComponent} from './components/filter/filter.component'
 import {MultyFiltersComponent} from './components/filters/filters.component'
 import {FilterService} from "./services/filtersService";
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {FilterService} from "./services/filtersService";
     SignalFileComponent,
     MultyFilesComponent,
     SignalFilterComponent,
-    MultyFiltersComponent
+    MultyFiltersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,FormsModule,HttpModule
